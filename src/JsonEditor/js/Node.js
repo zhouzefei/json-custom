@@ -1999,7 +1999,7 @@ export class Node {
         // create context menu
         if (this.editor.options.mode === 'tree') { // note: we take here the global setting
             const textObj = operas.find((opera) => {
-                return opera.text === '类型'
+                return opera.text === '类型' || (opera.text && opera.text.toUpperCase() === "TYPE")
             });
             console.log(textObj)
             const tdMenu = document.createElement('td')

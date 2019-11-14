@@ -1593,15 +1593,15 @@ treemode._createTable = function () {
 
     // 操作：修改数据类型
     col = document.createElement('col')
-    col.width = '24px'
+    col.width = '26px'
     this.colgroupContent.appendChild(col)
     // 操作：复制
     col = document.createElement('col')
-    col.width = '24px'
+    col.width = '26px'
     this.colgroupContent.appendChild(col)
     // 操作：删除
     col = document.createElement('col')
-    col.width = '24px'
+    col.width = '30px'
     this.colgroupContent.appendChild(col)
 
     this.tbody = document.createElement('tbody')
